@@ -1,0 +1,15 @@
+﻿<Window x:Class="google_drive_simple.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:google_drive_simple"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="443.289" Width="882.894">
+    <Grid>
+        <Button x:Name="uploadButton" Content="Choose a folder to upload from" HorizontalAlignment="Left" Margin="89,99,0,0" VerticalAlignment="Top" Width="225" Height="44" Click="uploadButton_Click"/>
+        <ListBox x:Name="gdFoldersListBox" HorizontalAlignment="Left" Height="303" Margin="521,45,0,0" VerticalAlignment="Top" Width="257"/>
+        <Button x:Name="gdAuthButton" Content="Authenticate on Google Drive" HorizontalAlignment="Left" Height="40" Margin="89,199,0,0" VerticalAlignment="Top" Width="225" Click="gdAuthButton_Click"/>
+
+    </Grid>
+</Window>
